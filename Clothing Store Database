@@ -1,0 +1,23 @@
+CREATE TABLE Clothing (id INTEGER PRIMARY KEY, Clothing_Item TEXT, Price INTEGER, Item_Number INTEGER, Aisle INTEGER);
+
+INSERT INTO Clothing VALUES (1, "Blue Jeans", 35, 225569, 4);
+INSERT INTO Clothing VALUES (2, "Sweatshirt", 20, 770552, 2);
+INSERT INTO Clothing VALUES (3, "White Sneakers", 15, 902103, 7);
+INSERT INTO Clothing VALUES (4, "Leggings", 8, 447859, 22);
+INSERT INTO Clothing VALUES (5, "T-Shirt", 10, 778855, 12);
+INSERT INTO Clothing VALUES (6, "Hoodie", 25, 023696, 18);
+INSERT INTO Clothing VALUES (7, "Wallet", 12, 735269, 1);
+INSERT INTO Clothing VALUES (8, "Belt", 10, 745236, 3);
+INSERT INTO Clothing VALUES (9, "Dress", 40, 236589, 7);
+INSERT INTO Clothing VALUES (10, "Skirt", 22, 415236, 8);
+INSERT INTO Clothing VALUES (11, "Jacket", 50, 523698, 10);
+INSERT INTO Clothing VALUES (12, "Socks", 6, 452369, 11);
+INSERT INTO Clothing VALUES (13, "Headband", 3, 112368, 4);
+INSERT INTO Clothing VALUES (14, "Tank Top", 7, 412365, 5);
+INSERT INTO Clothing VALUES (15, "Sweater", 29, 325639, 7);
+
+--display the database ordered by price.
+SELECT * FROM Clothing ORDER BY Price;
+
+--what are the items that are under $25?
+SELECT * FROM Clothing WHERE Price<25 ORDER BY Price;
