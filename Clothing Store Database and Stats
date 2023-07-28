@@ -1,0 +1,19 @@
+CREATE TABLE MyStore (id INTEGER PRIMARY KEY, Name TEXT, Price INTEGER, Size TEXT, Color TEXT);
+
+INSERT INTO MyStore VALUES(000001, "Blue Jeans", 15, "Large", "Blue");
+INSERT INTO MyStore VALUES(000002, "T-Shirt", 10, "X-Small", "Pink");
+INSERT INTO MyStore VALUES(000003, "Sweatshirt", 30, "Medium", "Grey");
+INSERT INTO MyStore VALUES(000004, "Slippers", 12, "Large", "Black");
+INSERT INTO MyStore VALUES(000005, "Underwear", 5, "Small", "Yellow");
+INSERT INTO MyStore VALUES(000006, "Camisol", 3, "X-Small", "Purple");
+INSERT INTO MyStore VALUES(000007, "Vest", 35, "X-Large", "Pink");
+INSERT INTO MyStore VALUES(000008, "Yoga Pants", 20, "Large", "Black");
+INSERT INTO MyStore VALUES(000009, "Turtle Neck", 14, "X-Large", "White");
+INSERT INTO MyStore VALUES(000010,"Windbreaker", 35, "XXL", "Blue");
+INSERT INTO MyStore VALUES(000011, "Blouse", 10, "Small", "Red");
+INSERT INTO MyStore VALUES(000012, "Sweatpants", 15, "X-Large", "Grey");
+INSERT INTO MyStore VALUES(000013, "Jacket", 40, "XXL", "Black");
+INSERT INTO MyStore VALUES(000014, "Dress", 35, "Medium", "Floral");
+INSERT INTO MyStore VALUES(000015, "Coat", 50, "XXL", "Black");
+
+SELECT * FROM MyStore ORDER BY Id;
